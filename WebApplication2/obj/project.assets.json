@@ -6152,26 +6152,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\KLANT\\.nuget\\packages\\": {}
+    "/home/koenvanderels/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\KLANT\\source\\repos\\WebApplication2\\WebApplication2\\WebApplication2.csproj",
+      "projectUniqueName": "/home/koenvanderels/Documents/schoolWebsite/WebApplication2/WebApplication2.csproj",
       "projectName": "WebApplication2",
-      "projectPath": "C:\\Users\\KLANT\\source\\repos\\WebApplication2\\WebApplication2\\WebApplication2.csproj",
-      "packagesPath": "C:\\Users\\KLANT\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\KLANT\\source\\repos\\WebApplication2\\WebApplication2\\obj\\",
+      "projectPath": "/home/koenvanderels/Documents/schoolWebsite/WebApplication2/WebApplication2.csproj",
+      "packagesPath": "/home/koenvanderels/.nuget/packages/",
+      "outputPath": "/home/koenvanderels/Documents/schoolWebsite/WebApplication2/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\KLANT\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "/home/koenvanderels/.config/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -6223,7 +6221,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.101/RuntimeIdentifierGraph.json"
       }
     }
   }
