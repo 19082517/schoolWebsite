@@ -1,0 +1,17 @@
+@model Student 
+@if (Model != null)
+{
+    <form method="POST" action="/Home/Index">
+        <div>Studentnummer: @Model.studentNumber</div>
+        <div>Voornaam: @Model.firstName</div>
+        <div>Email: @Model.email</div>
+        <div><input value="Doorgaan" type="submit" /></div>
+    </form>
+}
+else
+{
+    <form action="/Home/Index">
+        <div>Student bestaat niet. Probeer het opnieuw.</div>
+        <div><input value="Doorgaan" type="submit" /></div>
+    </form>
+}

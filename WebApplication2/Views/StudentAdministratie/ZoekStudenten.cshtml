@@ -1,0 +1,21 @@
+@model List<Student>
+
+<div>found in list:</div>
+<table class="table">
+    <thead>
+    <tr>
+        <th>ID</th>
+        <th>FirstName</th>
+        <th>Email</th>
+    </tr>
+    </thead>
+    @foreach (Student s in Model)
+    {
+        <tr>
+            <td>@s.studentNumber</td>
+            <td>@s.firstName</td>
+            <td>@s.email</td>
+        </tr>
+    }
+
+</table>

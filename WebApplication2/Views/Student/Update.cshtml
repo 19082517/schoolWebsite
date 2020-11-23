@@ -1,0 +1,18 @@
+@model Student
+
+@if (Model != null)
+{
+    <div>Student wijzigen</div>
+
+    <form action="Update" method="post">
+        <div>Studentnummer: @Model.studentNumber</div>
+        <input name="studentNumber" type="text" value="@Model.studentNumber" hidden/>
+        <div>Voornaam: <input name="firstName" type="text" value="@Model.firstName" /></div>
+        <div>Email: <input name="email" type="email" value="@Model.email" /></div>
+        <div><input type="submit" value="Wijzigen" /></div>
+    </form>
+}
+else 
+{ 
+    <div>Studentnummer bestaat niet!</div>
+}
