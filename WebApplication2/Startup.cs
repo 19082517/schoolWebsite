@@ -10,6 +10,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using WebApplication2.Data;
+using WebApplication2.Services;
 
 namespace WebApplication2
 {
@@ -26,7 +27,8 @@ namespace WebApplication2
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllersWithViews();
-            services.AddDbContext<MijnContext>(options => options.UseSqlite());
+            services.AddDbContext<MijnContext>(options => options.UseSqlite("Filename=MyDatabase.db"));
+            services.AddScoped<IMijnService, MijnService>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

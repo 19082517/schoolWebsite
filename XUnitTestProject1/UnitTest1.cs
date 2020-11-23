@@ -43,19 +43,14 @@ namespace XUnitTestProject1
         }
 
         [Fact]
-        public void Test1() //just a test method, add 5 more
-        {
-            var context = GetInMemoryDBMetData();
-
-            HomeController homeController = new HomeController(context);
-            var result = Assert.IsType<ViewResult>(homeController.Index());
-        }
-
-        /*[Fact]
         public void StudentDetailsTest()
         {
             var context = GetInMemoryDBMetData();
-        }*/
+
+            StudentController s = new StudentController(context);
+
+
+        }
 
         [Fact]
         public void ZoekStudentTest() 
@@ -63,10 +58,10 @@ namespace XUnitTestProject1
             var context = GetInMemoryDBMetData();
 
             StudentAdministratieController s = new StudentAdministratieController(context);
-            var result = Assert.IsType<ViewResult>(s.ZoekStudenten('k'));
+            var result = Assert.IsType<ViewResult>(s.ZoekStudenten('i'));
             var model = Assert.IsType<List<Student>>(result.Model);
 
-            Assert.True(model.Count == 2);
+            Assert.True(model.Count == 3);
         }
     }
 }

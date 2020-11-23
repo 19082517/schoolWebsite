@@ -1,8 +1,8 @@
 {
   "runtimeOptions": {
     "additionalProbingPaths": [
-      "/home/koenvanderels/.dotnet/store/|arch|/|tfm|",
-      "/home/koenvanderels/.nuget/packages"
+      "C:\\Users\\KLANT\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\KLANT\\.nuget\\packages"
     ]
   }
 }

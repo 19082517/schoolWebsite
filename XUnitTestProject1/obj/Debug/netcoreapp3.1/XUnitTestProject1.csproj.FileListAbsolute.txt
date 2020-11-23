@@ -165,3 +165,5 @@ C:\Users\KLANT\source\repos\WebApplication2\XUnitTestProject1\bin\Debug\netcorea
 C:\Users\KLANT\source\repos\WebApplication2\XUnitTestProject1\obj\Debug\netcoreapp3.1\XUnitTestProject1.csproj.CoreCompileInputs.cache
 C:\Users\KLANT\source\repos\WebApplication2\XUnitTestProject1\obj\Debug\netcoreapp3.1\XUnitTestProject1.dll
 C:\Users\KLANT\source\repos\WebApplication2\XUnitTestProject1\obj\Debug\netcoreapp3.1\XUnitTestProject1.pdb
+C:\Users\KLANT\source\repos\WebApplication2\XUnitTestProject1\bin\Debug\netcoreapp3.1\Humanizer.dll
+C:\Users\KLANT\source\repos\WebApplication2\XUnitTestProject1\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll

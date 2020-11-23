@@ -47,7 +47,6 @@ namespace WebApplication2
                 context.students.Add(student);
                 context.SaveChanges();
                 return RedirectToAction("Details", new { id = student.studentNumber });
-
             }
             else
             {
@@ -71,6 +70,7 @@ namespace WebApplication2
 
             student.firstName = inputStudent.firstName;
             student.email = inputStudent.email;
+            context.SaveChanges();
 
             return RedirectToAction("Details", new { id = student.studentNumber });
         }

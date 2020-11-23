@@ -1,25 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "/home/koenvanderels/Documents/schoolWebsite/XUnitTestProject1/XUnitTestProject1.csproj": {}
+    "C:\\Users\\KLANT\\source\\repos\\WebApplication2\\XUnitTestProject1\\XUnitTestProject1.csproj": {}
   },
   "projects": {
-    "/home/koenvanderels/Documents/schoolWebsite/WebApplication2/WebApplication2.csproj": {
+    "C:\\Users\\KLANT\\source\\repos\\WebApplication2\\WebApplication2\\WebApplication2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/koenvanderels/Documents/schoolWebsite/WebApplication2/WebApplication2.csproj",
+        "projectUniqueName": "C:\\Users\\KLANT\\source\\repos\\WebApplication2\\WebApplication2\\WebApplication2.csproj",
         "projectName": "WebApplication2",
-        "projectPath": "/home/koenvanderels/Documents/schoolWebsite/WebApplication2/WebApplication2.csproj",
-        "packagesPath": "/home/koenvanderels/.nuget/packages/",
-        "outputPath": "/home/koenvanderels/Documents/schoolWebsite/WebApplication2/obj/",
+        "projectPath": "C:\\Users\\KLANT\\source\\repos\\WebApplication2\\WebApplication2\\WebApplication2.csproj",
+        "packagesPath": "C:\\Users\\KLANT\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\KLANT\\source\\repos\\WebApplication2\\WebApplication2\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/koenvanderels/.config/NuGet/NuGet.Config"
+          "C:\\Users\\KLANT\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -51,6 +53,12 @@
             "Microsoft.EntityFrameworkCore.Sqlite": {
               "target": "Package",
               "version": "[5.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.0, )"
             }
           },
           "imports": [
@@ -71,33 +79,35 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.101/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "/home/koenvanderels/Documents/schoolWebsite/XUnitTestProject1/XUnitTestProject1.csproj": {
+    "C:\\Users\\KLANT\\source\\repos\\WebApplication2\\XUnitTestProject1\\XUnitTestProject1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/koenvanderels/Documents/schoolWebsite/XUnitTestProject1/XUnitTestProject1.csproj",
+        "projectUniqueName": "C:\\Users\\KLANT\\source\\repos\\WebApplication2\\XUnitTestProject1\\XUnitTestProject1.csproj",
         "projectName": "XUnitTestProject1",
-        "projectPath": "/home/koenvanderels/Documents/schoolWebsite/XUnitTestProject1/XUnitTestProject1.csproj",
-        "packagesPath": "/home/koenvanderels/.nuget/packages/",
-        "outputPath": "/home/koenvanderels/Documents/schoolWebsite/XUnitTestProject1/obj/",
+        "projectPath": "C:\\Users\\KLANT\\source\\repos\\WebApplication2\\XUnitTestProject1\\XUnitTestProject1.csproj",
+        "packagesPath": "C:\\Users\\KLANT\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\KLANT\\source\\repos\\WebApplication2\\XUnitTestProject1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/koenvanderels/.config/NuGet/NuGet.Config"
+          "C:\\Users\\KLANT\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "/home/koenvanderels/Documents/schoolWebsite/WebApplication2/WebApplication2.csproj": {
-                "projectPath": "/home/koenvanderels/Documents/schoolWebsite/WebApplication2/WebApplication2.csproj"
+              "C:\\Users\\KLANT\\source\\repos\\WebApplication2\\WebApplication2\\WebApplication2.csproj": {
+                "projectPath": "C:\\Users\\KLANT\\source\\repos\\WebApplication2\\WebApplication2\\WebApplication2.csproj"
               }
             }
           }
@@ -120,6 +130,12 @@
               "version": "[5.0.0, )"
             },
             "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
               "target": "Package",
               "version": "[5.0.0, )"
             },
@@ -158,7 +174,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.101/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
         }
       }
     }
