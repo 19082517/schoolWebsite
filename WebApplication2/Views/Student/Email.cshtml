@@ -1,9 +1,11 @@
-
-@if (ViewData["email"] == "")
+@model Student
+@if (Model == null)
 {
-    <div>Student not found</div>
+<div>
+    Email niet gevonden/Student niet gevonden
+</div>
 }
 else
 {
-    <div>de email is @ViewData["email"]</div>    
+    <div>De email is @Model.email</div>    
 }

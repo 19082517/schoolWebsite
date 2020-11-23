@@ -20,17 +20,17 @@ namespace WebApplication2
             return View();
         }
 
-        public IActionResult Aantal(string voornaam)
+        public IActionResult Aantal(string firstName)
         {
-            ViewData["voornaam"] = voornaam;
-            ViewData["aantal"] = context.students.Count(s => s.firstName.ToLower() == voornaam.ToLower());
+            ViewData["voornaam"] = firstName;
+            ViewData["aantal"] = context.students.Count(s => s.firstName.ToLower() == firstName.ToLower());
             return View();
         }
 
         public IActionResult Email(int id)
         {
-            ViewData["email"] = context.students.Single(s => s.studentNumber == id).email;
-            return View();
+            Student student = context.students.Single(s => s.studentNumber == id);
+            return View(student);
         }
 
 

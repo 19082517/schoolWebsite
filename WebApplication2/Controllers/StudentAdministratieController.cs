@@ -17,7 +17,7 @@ namespace WebApplication2
 
         public IActionResult ZoekStudenten(char id)
         {
-            List<Student> sList = context.students.Where(s => s.firstName.ToLower().StartsWith(id)).ToList();
+            List<Student> sList = context.students.Where(s => s.firstName.ToLower().StartsWith(id.ToString().ToLower())).ToList();
             return View(sList);
         }
     }
